@@ -1,0 +1,77 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Curriculum Vitae</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap\" rel=\"stylesheet\">\r\n</head>\r\n<body>\r\n<div class=\"container\">\r\n    <div class=\"header\">\r\n        <img src=\"fotoPerfil.JPEG\" alt=\"Foto de perfil\">\r\n        <h1>Brayan Oswaldo Cano Lopez</h1>\r\n        <p>Email: brayan.cn@hotmail.com | Contact: (+52)33-1536-8359</p>\r\n    </div>\r\n\r\n    <section>\r\n        <h2>Personal data</h2>\r\n        <ul>\r\n            <li><strong>Age:</strong> 20 years</li>\r\n            <li><strong>Birthday:</strong> September 24, 2004</li>\r\n            <li><strong>Nationality:</strong> Mexican</li>\r\n            <li><strong>City:</strong> Guadalajara</li>\r\n        </ul>\r\n    </section>\r\n\r\n    <section>\r\n        <h2>Skills</h2>\r\n        <ul>\r\n            <li>Good teamwork</li>\r\n            <li>Leadership</li>\r\n            <li>Knowledge in SQL and databases, 40-50%</li>\r\n            <li>Knowledge in PHP and Laravel 10, 65%</li>\r\n            <li>Knowledge in node.js 50%</li>\r\n            <li>English level C1</li>\r\n        </ul>\r\n    </section>\r\n\r\n    <section>\r\n        <h2>Laboral Experience</h2>\r\n        <ul>\r\n            <li>\r\n                <strong>Job:</strong> Waiter <br>\r\n                <strong>Duration:</strong> 2019 - now  <br>\r\n                <strong>Description:</strong> Drinks waiter service in casinos and private events\r\n            </li>\r\n        </ul>\r\n        <h2>Professional interests</h2>\r\n        <ul>\r\n            <li>My professional interests are: </li>\r\n            <li>\r\n                Work as a back-end developer or full-stack developer.\r\n                My main programming languages are: PHP, HTML and JS,\r\n                and my main frameworks are: Laravel, Node.js.\r\n            </li>\r\n        </ul>\r\n    </section>\r\n\r\n    <section>\r\n        <h2>Education</h2>\r\n        <ul>\r\n            <li>\r\n                <strong>Degree:</strong> High School <br>\r\n                <strong>Institution:</strong> Escuela Vocacional de la Universidad de Guadalajara <br>\r\n                <strong>Years:</strong> 2019 - 2022\r\n            </li>\r\n            <li>\r\n                <strong>Degree:</strong> Computer Engineer <br>\r\n                <strong>Institution:</strong> Universidad de Guadalajara <br>\r\n                <strong>Years:</strong> 2022 - now\r\n            </li>\r\n        </ul>\r\n    </section>\r\n\r\n    <section>\r\n        <h2>References</h2>\r\n        <ul>\r\n            <li>\r\n                <strong>Reference 1</strong><br>\r\n                <strong>Name:</strong> Jair Cano Lopez <br>\r\n                <strong>Position:</strong> PM in IncFile <br>\r\n                <strong>Email:</strong> jair.cano@gmail.com <br>\r\n                <strong>Phone:</strong> (+52)33-1733-8059 <br>\r\n                <strong>Reference:</strong> He's a very good person and I like his way of working. Also, he has great capacity to learn new things.\r\n            </li>\r\n            <li>\r\n                <strong>Reference 2</strong><br>\r\n                <strong>Name:</strong> Beatriz Hoyo Lopez <br>\r\n                <strong>Position:</strong> HR manager in Svitla <br>\r\n                <strong>Email:</strong> beatriz.hoyo@gmail.com <br>\r\n                <strong>Phone:</strong> (+52)33-1030-8334 <br>\r\n                <strong>Reference:</strong> He has a very good knowledge about TI and I feel that he has the ability to explode and have great ideas.\r\n            </li>\r\n        </ul>\r\n    </section>\r\n\r\n    <footer>\r\n        <h2>Links</h2>\r\n        <p>LinkedIn: <a href=\"#\">https://linkedin.com/in/oswaldo-cano-847735323</a></p>\r\n        <p>Perfil Git: <a href=\"#\">https://github.com/OswaCano</a></p>\r\n        <p>Instagram: <a href=\"#\">https://www.instagram.com/oswa_cano/</a></p>\r\n    </footer>\r\n</div>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 4fdb239a129acfd0df2116ca7b9e061eae5a72fd)
++++ b/index.html	(date 1737693167848)
+@@ -3,7 +3,7 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Curriculum Vitae</title>
++    <title>Currículum Vitae</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+ </head>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e2f91c7e-77bf-4a76-9590-5b11121a19a4\" name=\"Changes\" comment=\"cambios\">\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/style.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RESET_MODE\" value=\"MIXED\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"OswaCano\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/OswaCano/DevWebCLBO.git\",\r\n    \"accountId\": \"1bd67a02-9466-4228-bcc2-68bd52fff6f4\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 4\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2s3Wby2zrMtKMrPy1oXbg5iO9Hv\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e2f91c7e-77bf-4a76-9590-5b11121a19a4\" name=\"Changes\" comment=\"\" />\r\n      <created>1737684813406</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1737684813406</updated>\r\n      <workItem from=\"1737684814427\" duration=\"5048000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"cambios\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737689390178</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737689390178</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"cambios\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"cambios\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4fdb239a129acfd0df2116ca7b9e061eae5a72fd)
++++ b/.idea/workspace.xml	(date 1737692965790)
+@@ -4,10 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e2f91c7e-77bf-4a76-9590-5b11121a19a4" name="Changes" comment="cambios">
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+-    </list>
++    <list default="true" id="e2f91c7e-77bf-4a76-9590-5b11121a19a4" name="Changes" comment="translate" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -76,7 +73,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1737684813406</updated>
+-      <workItem from="1737684814427" duration="5048000" />
++      <workItem from="1737684814427" duration="5442000" />
+     </task>
+     <task id="LOCAL-00001" summary="cambios">
+       <option name="closed" value="true" />
+@@ -86,7 +83,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1737689390178</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="translate">
++      <option name="closed" value="true" />
++      <created>1737692724167</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1737692724167</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -111,6 +116,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="cambios" />
+-    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
++    <MESSAGE value="translate" />
++    <option name="LAST_COMMIT_MESSAGE" value="translate" />
+   </component>
+ </project>
+\ No newline at end of file
